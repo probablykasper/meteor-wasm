@@ -1,5 +1,7 @@
 import { Template } from 'meteor/templating';
 import { ReactiveVar } from 'meteor/reactive-var';
+import * as wasm from '../rust-stuff/pkg/rust_stuff.js';
+wasm.greet();
 
 import './main.html';
 
